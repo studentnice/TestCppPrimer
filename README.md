@@ -4,7 +4,7 @@
 一人创建一个自己的文件夹，把每一期的作业 pull Request 到 
 [github TestCppPrimer](https://github.com/miccall/TestCppPrimer)
 
-## 2. IED推荐
+## 2. 推荐
 > 教科书上用的C++ 普遍为 C++ 98 版本，而我用的是C++11版本 。或者你也可以选用14，17版本。
 
 ### 1.编译器推荐 MinGW 11版本
@@ -21,6 +21,11 @@ vs适合做大工程，比如openCV 或者openGL等。
 clion适合做小项目，管理比较好，可移植性高。
 st3 适合写写算法，方便简单。
 以及其他个人习惯就好。
+### 3.图书推荐
+
+- C++ Primer plus (第5版) [电子书下载](https://pan.baidu.com/s/1qYC3ovy) 密码: j5qx
+- 深入应用C++ 11 [电子书下载](https://pan.baidu.com/s/1dFaqax7 ) 密码: jiw5
+- OpenCV 实例详解 [电子书下载](https://pan.baidu.com/s/1qYmKL1i) 密码: hrnh
 
 ## 3. 工程架构
 
