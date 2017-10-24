@@ -1,35 +1,16 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <set>
-#include <map>
-#include <cstdio>
+#include<iostream>
+#include<map>
 using namespace std;
+bool isAnagram(string s, string t){
+	map<int,int> record1,record2;
+	for (int i = 0; i < s.size(); i++) record1[s[i]]++;
+	for (int i = 0; i < t.size(); i++) record2[t[i]]++;
+	if (record1 == record2) return true;
+	else return false;
+}
+
 int main(){
-	char c;
-	int count = 0;
-	vector<char> text;
-	vector<char>::iterator iter = text.end();
-	while (count != 2){
-		c = getchar();
-		if (c == '\n'){
-			count++;
-			continue;
-		}
-		text.insert(iter,c);
-		iter = text.end();
-	}
-	map<int,int> record;
-	for (int i = 0; i < text.size(); i++){
-		record[text[i]]++;
-	}
-	count = 0;
-	for (int i = 0; i < text.size(); i++){
-		if (record[text[i]] %2 != 0 ){
-			count = 1;
-			break;
-		}
-	}
-	count == 1?(cout<< "No" <<endl):(cout<< "Yes" <<endl);
+	if (isAnagram("rat","car")) cout<< "Yes" <<endl;
+	else cout<< "No" <<endl;
 	return 0;
 }
