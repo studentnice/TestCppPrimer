@@ -105,6 +105,14 @@ change(map)
 如 s = "anagram"  t = "nagaram" , 返回true 
 如 s = "rat"  t = "car" , 则返回 false 
 
+``` cpp
+
+bool isAnagram(string s, string t) {
+
+}
+
+```
+
 202题 判断一个数是否为happy number 也就是，一个数，
 将其替换为其各位数字的平方和，重复这个过程，如果最终能得到1
 ，说明这个数就是一个happy number ，如果这个过程陷入了一个不包含1的循环，则不是happy number 。
@@ -116,3 +124,10 @@ change(map)
 
 则19就是happy number 
 陷入循环的情况就是 ，万一发现某个过程 他的计算结果又是68 ，那么他就不是一个happy number 。 
+
+``` cpp
+
+bool isHappy(int n) {
+	
+}
+```
