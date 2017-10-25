@@ -6,14 +6,14 @@ bool isAnagram(string s,string t)
 	map<char,int> record;
 	for(i=0;i<s.size();i++)
 	{
-		record[s(i)]++;
+		record[s[i]]++;
 	}
 	for(i=0;i<t.size();i++)
 	{
-		if(record[t(i)]==0)
+		if(record[t[i]]==0)
 			return false;
 		else
-			record[t(i)]--;
+			record[t[i]]--;
 	}
 	return true;
 }
