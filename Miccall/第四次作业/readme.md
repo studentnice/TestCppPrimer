@@ -17,8 +17,45 @@ npm -v
 ```
 如果出现版本号 ，则成功 。
 
-剩下的参考
-[额外教程](http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
+## 2. 特殊的github仓库
 
-以及最好的工具 ，百度 。
+新建一个仓库 Github昵称.github.io
 
+## 3. hexo环境  
+在电脑上新建一个blog文件夹,该文件夹用于存放你的博客文件,blog
+,目录下然后右键单击选择gitbash.
+ 
+```
+npm install -g hexo
+
+```
+测试 
+
+```
+hexo -v
+```
+
+初始化
+```
+hexo init
+```
+开启服务
+
+```
+hexo server
+
+```
+
+生成静态文件 
+```
+hexo clean
+hexo g
+```
+
+部署到github 
+```
+hexo d
+```
+
+真的没时间写教程了 ，大家还是看看百度吧 。
+hexo + github 搭建个人博客
