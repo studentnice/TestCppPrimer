@@ -4,6 +4,7 @@
 ## 1. Node.js环境  
 
 官网下载安装 (勾选 npm)
+
 ![](http://ww3.sinaimg.cn/large/9fe4afa0gw1faljhotcr1j20dv0atq4u.jpg)
 
 在系统环境变量 配置path变量(没听说过环境变量？？)
