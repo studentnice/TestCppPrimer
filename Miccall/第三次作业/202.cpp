@@ -5,7 +5,7 @@
 #include <sstream>
 using namespace std;
     
-bool isHappy(int n) {
+bool isHappy(int n) { 
     stringstream ss;
 	string str ;
 	ss<<n;
